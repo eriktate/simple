@@ -1,0 +1,7 @@
+version: '3'
+services:
+    tododb:
+        build: $GOPATH/src/github.com/eriktate/simple/todo/cockroach
+        ports:
+        - "26257:26257"
+
